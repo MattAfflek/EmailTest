@@ -8,8 +8,8 @@ namespace EmailProject
     {
         // Our server
         private static string _host = "mail.s4ab.ru";
-        private static int _port = 993; // 143;
-        private static bool _secure = true; // false;
+        private static int _port = 143; // 143;993
+        private static bool _secure = false; // false;true
         private static string _userName = "mail.test@as61.ru";
         private static string _password = "Q1w2e3r4";
 
